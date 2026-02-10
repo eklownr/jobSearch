@@ -17,14 +17,6 @@ export default defineConfig([
 			"no-undef": "warn",
 			"prefer-const": "warn",
 			"arrow-body-style": ["error", "always"],
-			"capitalized-comments": [
-				"error",
-				"always",
-				{
-					ignorePattern: "pragma|ignored",
-					ignoreInlineComments: true,
-				},
-			],
 		},
 	},
 ]);
